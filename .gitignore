@@ -1,0 +1,6 @@
+/build/
+/.gradle/
+/bin/
+/tomcat.8080/
+/.settings/
+
