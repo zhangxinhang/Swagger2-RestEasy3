@@ -30,8 +30,6 @@ import io.swagger.annotations.ExampleProperty;
 public class SwaggerRestEasyExample {
 	final static String exampleStr = "{\"example_id\":\"例子ID，可不填1\",\"example_name\":\"例子名称\"}";
 
-	// 请确认是否需要添加忽略。添加该代码后，该资源路径将不做Token验证
-
 	@GET
 	@ApiOperation(value = "通过ID获取实例对象", response = ExampleVO.class)
 	@Path("/{exampleId}")
